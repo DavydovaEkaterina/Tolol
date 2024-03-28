@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "skirt",
+            "description": "good quality",
+            "price": "2000",
+            "grade": "4.8"
+        },
+        {
+            "id": 2,
+            "name": "trousers",
+            "description": "good quality",
+            "price": "4000",
+            "grade": "4.1"
+        },
+        {
+            "id": 3,
+            "name": "t-shirt",
+            "description": "good quality",
+            "price": "1000",
+            "grade": "4.7"
+        },
+        {
+            "id": 4,
+            "name": "shirt",
+            "description": "good quality",
+            "price": "3000",
+            "grade": "4.5"
+        }
+    ]
+}
