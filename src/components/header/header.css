@@ -10,9 +10,13 @@
 .header__logo {
     font-size: 40px;
     font-weight: 700;
-    color: #fff;
     padding: 10px;
     margin-right: 100px;
+}
+
+.header__href {
+    color: #fff;
+    text-decoration: none;
 }
 
 .header__search {

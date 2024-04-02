@@ -1,0 +1,26 @@
+
+.cartItem {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+}
+
+.cartItem__countItem {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.cartItem__addItem {
+    padding: 5px 10px;
+} 
+
+.cartItem__deleteItem {
+    padding: 5px 13px;
+} 
+
+.cartItem__countItem {
+    padding: 0 60px;
+    text-align: center;
+}

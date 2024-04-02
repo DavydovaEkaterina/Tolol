@@ -1,3 +1,14 @@
 .producstList {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.pro_btn {
+    margin: 20px auto;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #a73afd;
+    border-style: none;
 }

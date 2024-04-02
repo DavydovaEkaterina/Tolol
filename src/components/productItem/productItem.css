@@ -41,3 +41,24 @@
     border-style: none;
 }
 
+.productItem__btnCount {
+    border: 1px solid #a73afd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.productItem__btn-add {
+    padding: 5px 10px;
+} 
+
+.productItem__btn-delete {
+    padding: 5px 13px;
+} 
+
+.productItem__count {
+    padding: 0 60px;
+    text-align: center;
+}
+

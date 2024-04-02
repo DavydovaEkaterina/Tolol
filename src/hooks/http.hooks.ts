@@ -1,4 +1,4 @@
-import { TRequest } from '../typies/typies';
+import { TRequest } from '../typies/requestType';
 
 
 export const useHttp = () => {
