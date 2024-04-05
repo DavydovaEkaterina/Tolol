@@ -5,7 +5,7 @@ export interface ICart {
     addCount: string
 }
 
-export type TCart = ICart[] | [];
+export type TCart = ICart[];
 
 export interface IStore {
     cart: TCart,

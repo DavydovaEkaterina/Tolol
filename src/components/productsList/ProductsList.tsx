@@ -2,18 +2,20 @@ import { useDispatch, useSelector } from "react-redux";
 
 import { fetchProducts } from './productsSlice.js';
 
+
 import { useEffect } from "react";
 import Spinner from "../spinner/Spinner.js";
 import ProductItem from "../productItem/ProductItem.js";
 import { IStateStore, TProducts } from "../../typies/productType";
 
 import './productList.css';
+import { useAppDispatch } from "../../hooks/hooks.js";
 
 const ProductList = () => {
 
     const productsLoadingStatus = useSelector((state: IStateStore) => state.products.productsLoadingStatus);
     const productsFetched = useSelector((state: IStateStore) => state.products.products);
-    const dispatch = useDispatch();
+    const dispatch = useAppDispatch();
 
 
     useEffect(() => {
